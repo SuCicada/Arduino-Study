@@ -44,7 +44,7 @@ void loop() {
     int max = 600, min = 200;
     int blink = int((heart + 0.0 - min) / (max - min) * 255);
     blink = lastHeart - heart;
-    blink = blink < 10 ? (blink < 0 ? 0 : 0) : 255;
+    blink = blink < 50 ? (blink < 0 ? 0 : 0) : 255;
     Serial.println(lastHeart - heart);
     analogWrite(9, blink);
 //    analogWrite(9, heart);
