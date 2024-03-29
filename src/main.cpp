@@ -7,7 +7,11 @@
 //#include "test3.h"
 //#include "sound.h"
 //#include "blink.h"
-#include "heart.h"
+//#include "click_blink.h"
+//#include "keyboark.h"
+//#include "blink2.h"
+#include "fan/fan.h"
+//#include "heart.h"
 //int main(){
 //    loop();
 //}
